@@ -2,3 +2,12 @@
   font-family: sans-serif;
   text-align: center;
 }
+a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #333;
+  border-radius: 7px;
+  color: #fff;
+  background-color: #333;
+}

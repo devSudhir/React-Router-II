@@ -12,9 +12,15 @@ export const Login = () => {
     hs.goBack();
   };
   return (
-    <div>
+    <div style={{ margin: "20px auto" }}>
       <form onSubmit={handleLogin}>
         <input
+          style={{
+            border: "none",
+            borderBottom: "2px solid #333",
+            padding: "10px",
+            fontSize: "1rem"
+          }}
           type="email"
           placeholder="Email"
           name="email"
@@ -24,6 +30,13 @@ export const Login = () => {
         />
         <br />
         <input
+          style={{
+            border: "none",
+            borderBottom: "2px solid #333",
+            padding: "10px",
+            fontSize: "1rem",
+            marginTop: "7px"
+          }}
           type="password"
           placeholder="password"
           name="password"
@@ -32,7 +45,19 @@ export const Login = () => {
           }}
         />
         <br />
-        <button type="submit">Submit</button>
+        <button
+          style={{
+            border: "none",
+            borderBottom: "2px solid #333",
+            padding: "10px",
+            fontSize: "1rem",
+            marginTop: "7px",
+            borderRadius: "7px"
+          }}
+          type="submit"
+        >
+          Submit
+        </button>
       </form>
     </div>
   );
